@@ -7,6 +7,10 @@
 
     <!-- Bootstrap CSS -->
     <style type="text/css" rel="stylesheet">
+      body{
+        color:rgb(56, 207, 56) !important;
+        background-color: black !important;
+      }
       .nav-item:hover{
           background-color:rgb(56, 207, 56);
           color: green;
@@ -25,7 +29,7 @@
           justify-content: space-around;
       }
       .footer{
-          background-color: rgb(163, 156, 156);
+          background-color: rgb(65, 57, 57);
           padding: 30px 30px;
       }
       .content{
@@ -50,7 +54,7 @@
     <title>Aravind Kumaresan's Profile</title>
   </head>
   <body>
-      <div class="sticky">
+      <div class="sticky" style="z-index: 1000;">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"><h2 style="text-align:center; color: rgb(56, 207, 56);">Aravind's Profile</h2></a>
@@ -80,9 +84,7 @@
                   <li class="nav-item">
                     <a class="nav-link" href="./education.html">Education</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./personal.html">Personal Info</a>
-                  </li>
+                  
                 </ul>
               </div>
             </div>
@@ -112,9 +114,68 @@
       
 
       <div class="content">
-         Yet to add articles...
+        <h3 style="color: rgb(56, 207, 56); text-align:center">Articles </h3>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Top 10 Data scientists toolkit in 2021</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Data Science</h6>
+            <p class="card-text">As without saying, Data science is the best growing field and in demand for the past couple of years, and this curve keeps to grow for the upcoming years. Here go the top 10 tools, that you should know to kick start your career in this field</p>
+            <a href="https://medium.com/@kuaravind1999k/top-10-data-scientists-toolkit-in-2020-13175bb09f51" class="card-link btn btn-success">View the article</a>
+            
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Things to Be Noted Before Buying a Laptop</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Electronic gadgets</h6>
+            <p class="card-text">I here briefly describe what are the things you should look out for before buying a laptop or ordering a laptop from online shopping vendors. This will save you, time instead of searching which laptop to buy and with what specifications.</p>
+            <a href="https://feedooz.com/things-to-be-noted-before-buying-a-laptop-1854" class="card-link btn btn-success">View the article</a>
+            <a href="https://feedooz.com/the-best-laptop-you-can-buy-within-45000-2105" class="card-link btn btn-success">Other similar article</a>
+            
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Top Freelancing Services That You Can Offer With Least or No Skills Required</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Part-Time Income</h6>
+            <p class="card-text">Here, I describe the best freelancing services that you can offer right from the comfort of your home and have a passive income coming on from the day of your start. This is a group of articles, so here we go with the first part</p>
+            <a href="https://feedooz.com/top-freelancing-services-that-you-can-offer-with-least-or-no-skills-required-part-1-2081" class="card-link btn btn-success">Part 1</a>
+            <a href="https://feedooz.com/top-freelancing-services-that-you-can-offer-with-least-or-no-skills-required-part-2-2082" class="card-link btn btn-success">Part 2</a>
+            <a href="https://feedooz.com/top-freelancing-services-that-you-can-offer-with-least-or-no-skills-required-part-3-2083" class="card-link btn btn-success">Part 3</a>
+            <a href="https://feedooz.com/top-freelancing-services-that-you-can-offer-with-least-or-no-skills-required-part-4-2084" class="card-link btn btn-success">Part 4</a>
+            
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">How to Solve Algorithms in Competitive Programming Effectively</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Programming</h6>
+            <p class="card-text">Here I will discuss some tips and tricks to solve problem-solving questions asked in interviews.</p>
+            <a href="https://feedooz.com/how-to-solve-algorithms-in-competitive-programming-effectively-2093" class="card-link btn btn-success">View the article</a>
+            
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Docker Essentials and Containerization</h5>
+            <h6 class="card-subtitle mb-2 text-muted">DevOps</h6>
+            <p class="card-text">Here I discuss some of the important concepts of Docker, how it could be used and what are there actual puposes.</p>
+            <a href="https://feedooz.com/docker-essentials-and-containerization-2117" class="card-link btn btn-success">View the article</a>
+            
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Docker Orchestration, Compose and Swarm</h5>
+            <h6 class="card-subtitle mb-2 text-muted">DevOps</h6>
+            <p class="card-text">Here I discuss the important aspects of using Docker swarm and how it can be used for orchestration.</p>
+            <a href="https://feedooz.com/docker-orchestration-compose-and-swarm-2120" class="card-link btn btn-success">View the article</a>
+            
+          </div>
+        </div>
+
       </div>
-    
+      
       <div class="footer">
           <div style="text-align: center; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
               Connect with me socially
@@ -130,5 +191,12 @@
       </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      (function(){
+         console.log("I am here");
+         
+         window.scrollBy(0,215);
+      })();
+  </script> 
   </body>
 </html>

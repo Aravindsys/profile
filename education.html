@@ -7,6 +7,10 @@
 
     <!-- Bootstrap CSS -->
     <style type="text/css" rel="stylesheet">
+      body{
+        color:rgb(56, 207, 56) !important;
+        background-color: black !important;
+      }
       .nav-item:hover{
           background-color:rgb(56, 207, 56);
           color: green;
@@ -25,16 +29,21 @@
           justify-content: space-around;
       }
       .footer{
-          background-color: rgb(163, 156, 156);
+        background-color:rgb(65, 57, 57);
           padding: 30px 30px;
       }
       .content{
           display: flex;
           flex-direction: column;
+          
+          justify-content: flex-start;
           margin-top: 20px;
           margin-right: 20px;
           margin-left: 30px;
           margin-bottom: 50px;
+      }
+      .items{
+          flex-shrink: 0;
       }
       .sticky{
           position: sticky;
@@ -43,6 +52,7 @@
       img{
           border-radius: 50px;
       }
+    
     </style>
     <script src="https://kit.fontawesome.com/1e01efe1ff.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
@@ -66,7 +76,7 @@
                     <a class="nav-link" href="./projects.html">Projects</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./courses.html">Courses</a>
+                    <a class="nav-link " href="./courses.html">Courses</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="./skills.html">Skills</a>
@@ -80,9 +90,7 @@
                   <li class="nav-item">
                     <a class="nav-link active" href="./education.html">Education</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./personal.html">Personal Info</a>
-                  </li>
+                 
                 </ul>
               </div>
             </div>
@@ -110,10 +118,30 @@
         </div>
       </div>
       
-
       <div class="content">
-         Yet to add education...
-      </div>
+        <h3 style="color: rgb(56, 207, 56); text-align:center">Education</h3>
+         <div class="item">
+            <h4>Bachelors in Engineering, Mechanical</h4>
+            <p>Sri Venkateswara College Of Engineering, Kancheepuram, India</p>
+            <p>Percentage: 94.2</p>
+            <hr />
+         </div>
+         
+         <div class="item">
+            <h4>Higher Secondary Schooling (12th std)</h4>
+            <p>Velammal Matriculation School, Chennai, India</p>
+            <p>Percentage: 96</p>
+            <hr />
+         </div>
+
+         <div class="item">
+            <h4>Secondary Schooling (10th std)</h4>
+            <p>Velammal Matriculation School, Chennai, India</p>
+            <p>Percentage: 97</p>
+            <hr />
+         </div>
+</div>
+
     
       <div class="footer">
           <div style="text-align: center; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
@@ -130,5 +158,12 @@
       </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      (function(){
+         console.log("I am here");
+         
+         window.scrollBy(0,215);
+      })();
+  </script>  
   </body>
 </html>
